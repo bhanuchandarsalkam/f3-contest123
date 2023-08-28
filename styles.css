@@ -1,0 +1,63 @@
+#heading{
+    text-align:center;
+    color:#0296E5;
+}
+body{
+    background-color: #242A32;
+}
+#apikey,#movie{
+    width:100%;
+    margin:10px;
+    background-color: #3A3F47;
+    height:30px;
+}
+.key{
+    padding:0px 20px;
+}
+.button{
+    text-align:center;
+}
+#btn{
+    border-radius:50px;
+    background-color:#0296E5;
+}
+.loader{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border:5px solid black;
+    border-top:5px solid blue;
+    animation-iteration-count:infinite;
+    animation-name:run;
+    display:none;
+}
+@keyframes run{
+    0%{
+        rotate:45deg;
+    }
+    25%{
+        rotate:90deg;
+    }
+    50%{
+        rotate:180deg;
+    }
+    100%{
+    rotate:360deg;
+    }
+}
+#error-message{
+    color:red;
+}
+.some{
+    color:white;
+    width:100px;
+}
+#img{
+    width:200px;
+}
+#result{
+    padding:0px 70px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
